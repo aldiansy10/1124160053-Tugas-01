@@ -1,43 +1,46 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Sederhana</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style/style.css" />
 </head>
 <body>
     <header>
-        <h1>Muhammad Aldiansyah</h1>
+        <h1>Welcome to My Portfolio</h1>
     </header>
-    
-    <section class="about">
-        <h2>Tentang Saya</h2>
-        <p>Halo! Saya seorang pengembang web yang bersemangat dalam menciptakan pengalaman digital yang menarik.</p>
-    </section>
-    
-    <section class="experience">
-        <h2>Pengalaman</h2>
-        <p>Posisi: Web Developer di Perusahaan XYZ (2020 - Sekarang)</p>
-        <p>Posisi: UI/UX Designer di Perusahaan ABC (2018 - 2020)</p>
-    </section>
-    
-    <section class="education">
-        <h2>Pendidikan</h2>
-        <p>Sarjana Teknik Informatika - Universitas Contoh (2014 - 2018)</p>
-    </section>
-    
-    <section class="skills">
-        <h2>Keterampilan</h2>
-        <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>React, Vue.js</li>
-            <li>UI/UX Design</li>
-        </ul>
-    </section>
-    
+    <main>
+        <section class="about">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Profile Picture" class="profile-img">
+            <p style="font-family:courier;">MUHAMMAD ALDIANSYAH</p>
+            <p>Hi! I am a student passionate about technology. Currently, I am studying at Global Institute and focusing 
+                on software engineering. I believe that technology can make life easier and more interesting.
+
+                With skills in HTML, CSS, and Python, I have worked on several projects that reflect my ability to create innovative solutions. I am always 
+                looking to learn and grow, ready to take on new challenges and contribute positively to the industry.
+            </p>
+        </section>
+        <section class="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li>Create application framework.</li>
+                <li>Create a cashier framework.</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <div class="button-group">
+                <a href="mailto:aldiansyah54364@gmail.com" class="button">Email</a>
+                <a href="https://github.com/aldiansy10" class="button" target="_blank">GitHub</a>
+                <a href="https://instagram.com/diii_ansy10" class="button" target="_blank">Instagram</a>
+            </div>
+        </section>
+    </main>
     <footer>
-        <p>Hubungi saya: <a href="mailto:email@contoh.com">email@contoh.com</a></p>
+        <p>&copy; Muhammad Aldiansyah. Mahasiswa Global Institut.</p>
     </footer>
+    <script src="script/script.js"></script>
 </body>
 </html>

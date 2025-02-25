@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light cyan */
+    text-align: center;
+}
+
+header {
+    background-color: #004d40; /* Dark Teal */
+    color: #ffffff;
+    padding: 20px;
+    font-size: 24px; /* Reduced size */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    padding: 20px;
+}
+
+.about, .projects, .experience, .skills, .contact {
+    background: #ffffff; /* White */
+    margin: 20px auto;
+    padding: 30px; /* Increased padding */
+    max-width: 600px;
+    border-radius: 10px; /* More pronounced corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+img {
+    width: 160px; /* Slightly larger image */
+    border-radius: 50%;
+    margin-bottom: 15px; /* More space below image */
+}
+
+button {
+    background-color: #00796b; /* Teal */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005f56; /* Darker Teal on hover */
+}
